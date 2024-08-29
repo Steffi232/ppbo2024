@@ -2,7 +2,7 @@
 
 date_default_timezone_set("Asia/Jakarta");
 $nama = readline('Masukkan nama Anda: ');
-$waktu = date('H');
+$waktu = date('H:i');
 
 if ($waktu >= 5 && $waktu < 11) {
     echo "Selamat pagi, {$nama}, sekarang pukul {$waktu}\n";
