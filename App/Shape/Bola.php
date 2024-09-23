@@ -13,5 +13,4 @@ class Bola
         return (4/3)*self::PHI*pow($this->jari_jari,3);
     }
 }
-
 ?>

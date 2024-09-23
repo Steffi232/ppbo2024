@@ -38,5 +38,4 @@ class Pegawai
     echo "Nomor Telepon diganti menjadi: " . $this->no_hp; 
   }
 }
-
 ?>

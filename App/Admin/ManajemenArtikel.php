@@ -6,4 +6,5 @@ class ManajemenArtikel
     {
         echo "Artikel berhasil ditambahkan";
     }
+    
 }

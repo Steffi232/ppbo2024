@@ -15,5 +15,4 @@ class Tabung
         return self::PHI*pow($this->jari_jari,2)*$this->tinggi;
     }
 }
-
 ?>

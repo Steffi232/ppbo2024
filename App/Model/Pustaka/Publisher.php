@@ -27,5 +27,4 @@ class Publisher
         return $this->phone;
     }
 }
-
 ?>

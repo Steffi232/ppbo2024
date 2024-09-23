@@ -18,4 +18,5 @@ class TenagaKependidikan extends Pegawai
     {
       echo $this->nama . " memutuskan untuk mengambil cuti.";
     }
+
   }
