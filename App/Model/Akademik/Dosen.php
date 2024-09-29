@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Admin;
+namespace App\Model\Akademik;
 
 require_once 'Pegawai.php';
 
 class Dosen extends Pegawai 
 {
-    public $nidn;
+    private $nidn;
   
     public function __construct($nip, $nama, $no_hp, $alamat, $nidn) 
     {
@@ -18,5 +18,5 @@ class Dosen extends Pegawai
     {
       echo $this->nama . " sedang mengajar perkuliahan.";
     }
-    
+
   }
